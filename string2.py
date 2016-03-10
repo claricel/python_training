@@ -49,19 +49,6 @@ def not_bad(s):
 def front_back(a, b):
     # +++your code here+++
     
-    #if (len(a)%2) ==0 and (len(a)%2) ==0 :
-    print((len(a)%2), (len(b)%2))
-    
-    
-    #if (len(a)%2)==0 and (len(a)%2)==0:
-    
-    if (len(a)%2) == 0 and (len(b)%2) == 0 :
-        print("here")
-        str_ = a[0:2] + b[0:2] + a[2: len(a)] + b[2: len(b)] 
-    else:
-        str_ = a[0:3] + b[0:3] + a[3: len(a)] + b[3: len(b)] 
-    return str_
-    
 
 
 # Simple provided test() function used in main() to print
